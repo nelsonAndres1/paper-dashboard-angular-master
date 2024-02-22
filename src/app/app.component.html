@@ -1,5 +1,53 @@
-
-<!-- <div *ngIf="false"> -->
+<div  *ngIf="false">
     <router-outlet></router-outlet>
-<!-- </div> -->
-
+</div>
+<div>
+    <div class="row contenedor">
+        <div class="col-md-4">
+            <div class="card card-user">
+                <div class="image">
+                    <img src="../assets/img/logo.jpeg" alt="...">
+                </div>
+                <div class="card-body">
+                    <div class="author">
+                        <a href="#">
+                            <img class="avatar border-gray" src="../assets/img/logo2.jpeg" alt="...">
+                            <h5 class="title">Login</h5>
+                        </a>
+                    </div>
+                    <div class="description text-center">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Usuario</label>
+                                        <input type="text" class="form-control" placeholder="Home Address">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Contraseña</label>
+                                        <input type="text" class="form-control" placeholder="Home Address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="update ml-auto mr-auto">
+                                    <button type="submit" class="btn btn-primary btn-round">Ingresar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <hr>
+                    <div class="button-container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-6 ml-auto">
+                                <button type="submit" class="btn btn-primary btn-round">Recuperar Contraseña</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
